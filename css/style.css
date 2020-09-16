@@ -16,7 +16,8 @@ html {
 body {
     margin: 20px 20px 0;
     padding: 0;    
-    background-color: var(--background);
+    /* background-color: var(--background); */
+    background-color: red;
     color: var(--white);
     min-height: 100vh;
 }

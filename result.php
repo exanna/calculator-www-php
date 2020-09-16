@@ -30,6 +30,7 @@
         $gallery = isset($_POST['gallery']);
         $regulations = isset($_POST['regulations']);
 
+
         if ($wwwDesign == 1) {
             $price += 900;
             $text = $text . '<li>projekt graficzny strony głównej</li>';
