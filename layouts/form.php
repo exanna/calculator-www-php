@@ -1,7 +1,7 @@
 <div class="app">
     <form action="result.php" method="post">
         <label for="wwwDesign" class="label">
-            <input type="checkbox" class="check" name="wwwDesign" id="wwwDesign">
+            <input type="checkbox" name="wwwDesign" id="wwwDesign">
             projekt graficzny strony głównej (900 PLN)
         </label>
         <label for="WPinstalation" class="label">
