@@ -82,6 +82,12 @@ label {
     font-size: 18px;
 }
 
+input {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid var(--nbd);
+    
+}
+
 input[type="submit"] {
     background-color: var(--nbd);
     color: var(--white);
@@ -101,10 +107,9 @@ input[type="submit"]:focus {
     outline: none;
 }
 
-input {
-    font-family: 'Roboto', sans-serif;
-    border: 2px solid var(--nbd);
-    
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
 }
 
 .number {
@@ -144,73 +149,6 @@ li {
 	background-position: left center;
 	background-size: 40px;
     
-}
-
-/* checkboxy */
-
-.check {
-    margin-right: 50px;
-}
-
-.label {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 18px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.label .check {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: transparent;
-  border: 2px solid var(--nbd);
-}
-
-.label:hover .check ~ .checkmark {
-  background-color: var(--nbd);
-}
-
-.label .check:checked ~ .checkmark {
-  background-color: var(--nbd);
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.label .ckeck:checked ~ .checkmark:after {
-  display: block;
-}
-
-.label .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 .return {
